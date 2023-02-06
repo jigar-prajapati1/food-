@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "name": "dhruv",
+      "email": "tets@test.com",
+      "password": "test",
+      "address": "test",
+      "city": "test",
+      "state": "Gujarat",
+      "zip": "123",
+      "id": 1
+    },
+    {
+      "name": "dhruv",
+      "email": "tets@test.com",
+      "password": "qweqs",
+      "address": "test",
+      "city": "test",
+      "state": "Gujarat",
+      "zip": "123",
+      "id": 2
+    }
+  ],
+  "order": [
+    [
+      [
+        {
+          "quantity": 3,
+          "food": {
+            "id": 1,
+            "Name": "Burger",
+            "cookTime": "10-20",
+            "price": 120,
+            "favourite": false,
+            "origins": [
+              "indian"
+            ],
+            "star": 4.5,
+            "imageUrl": "/assets/food-1.jpg",
+            "tags": [
+              "FastFood",
+              "Burger",
+              "Lunch"
+            ]
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "quantity": 1,
+          "food": {
+            "id": 1,
+            "Name": "Burger",
+            "cookTime": "10-20",
+            "price": 120,
+            "favourite": false,
+            "origins": [
+              "indian"
+            ],
+            "star": 4.5,
+            "imageUrl": "/assets/food-1.jpg",
+            "tags": [
+              "FastFood",
+              "Burger",
+              "Lunch"
+            ]
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "quantity": 1,
+          "food": {
+            "id": 1,
+            "Name": "Burger",
+            "cookTime": "10-20",
+            "price": 120,
+            "favourite": false,
+            "origins": [
+              "indian"
+            ],
+            "star": 4.5,
+            "imageUrl": "/assets/food-1.jpg",
+            "tags": [
+              "FastFood",
+              "Burger",
+              "Lunch"
+            ]
+          }
+        }
+      ]
+    ]
+  ]
+}

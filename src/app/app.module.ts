@@ -12,8 +12,12 @@ import { TagComponent } from './tag/tag.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-
-
+import { HttpClientModule } from '@angular/common/http';
+import { SignupComponent } from './signup/signup.component';
+import { ProfileComponent } from './profile/profile.component';
+import { LoginComponent } from './login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AdminComponent } from './admin/admin/admin.component';
 
 
 
@@ -28,6 +32,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
     CartPageComponent,
     FoodpageComponent,
     NotFoundComponent,
+    SignupComponent,
+    ProfileComponent,
+    LoginComponent,
+    AdminComponent,
     
     
   ],
@@ -35,8 +43,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     RatingModule.forRoot(),
     BrowserAnimationsModule,
+    HttpClientModule
 
 
   ],

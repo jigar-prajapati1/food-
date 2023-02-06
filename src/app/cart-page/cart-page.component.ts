@@ -17,7 +17,6 @@ constructor(private cartservice:CartService){
 }
 
 ngOnInit(): void {
-  
 }
 setCart(){
   this.cart=this.cartservice.getCart();
@@ -28,6 +27,7 @@ this.setCart(); //instance load data
 }
 changeQuantity(cartItem:CartItem,quantityInString:string)
 {
+  console.log('cart log',cartItem)
   const quantity=parseInt(quantityInString);
   this.cartservice.changeQuantity(cartItem.food.id,quantity);
   this.setCart();
